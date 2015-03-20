@@ -5,8 +5,6 @@ check a sentence to see if it is a pangram or not.
 '''
 
 sentence = input('Enter a sentence: \n')
-if sentence == '':
-    sentence = "The quick brown fox jumps over the lazy dog"
 
 sentence_lower = sentence.lower()
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
