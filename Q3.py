@@ -10,4 +10,9 @@ while running:
     if text == '':
         running = False
     else:
-        print(text[::-1])
+        reverse = text[::-1]
+        if text == reverse:
+            print(text, 'is a palindrome.')
+        else:
+            print(text, 'isn\'t a palindrome.')
+
